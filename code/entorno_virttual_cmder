@@ -1,0 +1,10 @@
+ara preparar nuestro entorno de trabajo se siguió el siguiente procedimiento:
+
+Se crea una carpeta para el desarrollo del proyecto.
+Se inicializó un repositorio de git con “git init”.
+Se creó un ambiente virtual con “python3 -m venv venv”.
+Se creó un archivo .gitignore con “touch .gitignore”.
+Dentro del archivo .gitignore se coloca la carpeta venv mediante la siguiente línea código: “venv/”
+Se activó el ambiente virtual con “.\venv\Scripts\activate”.
+Se instaló mypy mediante “pip install mypy”.
+Se creó el archivo palindrome. py.
