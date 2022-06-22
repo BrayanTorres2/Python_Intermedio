@@ -28,3 +28,15 @@ saludo()
 # Salida:
 # Esto se añade a mi función original.
 # ¡Hola!
+#--------------------------------------------------------------------otro ejercicio
+def mayusculas(func):
+    def envoltura(texto):
+        return func(texto).upper()
+    return envoltura
+
+@mayusculas
+def mensaje(nombre):
+    return f'{nombre}, recibistes un mensaje'
+
+
+print(mensaje('duvan'))
